@@ -1,0 +1,26 @@
+{
+  "name": "streams",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "readable": "npx nodemon readable_stream.js",
+    "writable": "node writable_stream.js",
+    "duplex": "node duplex_stream.js",
+    "transform": "node transform_stream.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junaid-systemsltd/streams_nodejs_examples.git"
+  },
+  "author": "Junaid Sikander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junaid-systemsltd/streams_nodejs_examples/issues"
+  },
+  "homepage": "https://github.com/junaid-systemsltd/streams_nodejs_examples#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
